@@ -59,6 +59,11 @@ public class Funcionario {
 
 	public void testRg(){
 		System.out.println(rg);
-	}	
+	}
+	
+	public void testException() {
+		throw new IllegalArgumentException("Teste");
+
+	}
 	
 }
